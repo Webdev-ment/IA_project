@@ -1,8 +1,8 @@
 <?php  
 
 session_start();
-require_once("./Controllers/DoctorController.php");
-require_once("./Controllers/ReceptionistController.php");
+require_once("./DoctorController.php");
+require_once("./ReceptionistController.php");
 if(!empty($_SESSION["register_errors"])) unset($_SESSION["register_errors"]);
 
 $register_information = array();

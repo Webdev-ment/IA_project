@@ -53,7 +53,7 @@ session_start();
 
 <div class="py-3">  
 <div class="container" style="width: 800px;">
-    <h1>Register Here!</h1>
+    <h1 style="text-align: center; color: #8d0404">Register Here!</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
 

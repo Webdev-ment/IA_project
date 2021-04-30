@@ -1,5 +1,5 @@
 <?php
-require_once("./Models/ReceptionistModel.php");
+require_once("./ReceptionistModel.php");
 
 
 /**

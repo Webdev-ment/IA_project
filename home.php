@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"] == "GET") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Record</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <nav class=" navi navbar navbar-expand-sm  sticky-top" >
 <div class="">
@@ -55,7 +55,8 @@ if($_SERVER["REQUEST_METHOD"] == "GET") {
 
 </nav>
 <body class="bg-light" >
-<h1><center>Patient Record</center></h1>
+<h1><center>Patients Records</center></h1>
+<hr>
 <br>
 <?php 
 //  $Object = new PatientModel();

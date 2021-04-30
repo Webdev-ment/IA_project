@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-require_once("./Controllers/DoctorController.php");
-require_once("./Controllers/ReceptionistController.php");
+require_once("./DoctorController.php");
+require_once("./ReceptionistController.php");
 if(!empty($_SESSION["login_errors"])) unset($_SESSION["login_errors"]);
 
 $session_information = array();

@@ -1,5 +1,5 @@
 <?php
-require_once("./Models/DoctorModel.php");
+require_once("./DoctorModel.php");
 
 /**
  * Attempts to log in a doctor.

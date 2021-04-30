@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-require_once("./Models/DoctorModel.php");
-require_once("./Models/ReceptionistModel.php");
+require_once("./DoctorModel.php");
+require_once("./ReceptionistModel.php");
 
 $receptionist_connection = new ReceptionistModel();
 $doctor_connection = new DoctorModel();
@@ -48,7 +48,7 @@ $doctor_connection->create_table();
 
 </nav>
 
-<body class="body-bg ">
+<body class="body-bg" >
     <div class="p-d">  
         <div class="card right" style="background-color:white; width: 400px;">
             <div class="card-body">
