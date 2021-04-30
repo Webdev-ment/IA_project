@@ -10,7 +10,7 @@ require_once ("VisitationModel.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visitations</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <nav class=" navi navbar navbar-expand-sm  sticky-top" >
 <div class="">
@@ -25,6 +25,12 @@ require_once ("VisitationModel.php");
     <li class="nav-item active">
       <a class="nav-link" href="./registration.php">Register</a>
     </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="./profile.php">Profile</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="./logout.php">Log Out</a>
+    </li>
     <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Patients
@@ -32,11 +38,23 @@ require_once ("VisitationModel.php");
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="./AddPatientInfo.php"><b>Create Patient Records</b></a>
           <a class="dropdown-item" href="./viewPatientInfo.php"><b>View Patient Records</b></a>
-          <a class="dropdown-item" href=""><b>Edit Patient Record</b></a>
+          <a class="dropdown-item" href="./viewPatientInfo.php"><b>Edit Patient Record</b></a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" style="color: red;"><b>Delete Patient Records</b></a>
+          <a class="dropdown-item" href="./viewPatientInfo.php" style="color: red;"><b>Delete Patient Records</b></a>
         </div>
       </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Visitations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="./addVisitation.php"><b>Create Visitations Records</b></a>
+          <a class="dropdown-item" href="./Visitation.php"><b>View Visitations Records</b></a>
+          <a class="dropdown-item" href="./Visitation.php"><b>Edit Visitations Record</b></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="./Visitation.php" style="color: red;"><b>Delete Visitations Records</b></a>
+        </div>
+      </li> 
 
   </ul>
   

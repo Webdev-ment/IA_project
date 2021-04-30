@@ -45,13 +45,25 @@ session_start();
         Patients
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="./AddPatientInfo"><b>Create Patient Records</b></a>
-          <a class="dropdown-item" href="./viewPatientInfo"><b>View Patient Records</b></a>
-          <a class="dropdown-item" href="#"><b>Edit Patient Record</b></a>
+          <a class="dropdown-item" href="./AddPatientInfo.php"><b>Create Patient Records</b></a>
+          <a class="dropdown-item" href="./viewPatientInfo.php"><b>View Patient Records</b></a>
+          <a class="dropdown-item" href="./viewPatientInfo.php"><b>Edit Patient Record</b></a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" style="color: red;"><b>Delete Patient Records</b></a>
+          <a class="dropdown-item" href="./viewPatientInfo.php" style="color: red;"><b>Delete Patient Records</b></a>
         </div>
       </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Visitations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="./addVisitation.php"><b>Create Visitations Records</b></a>
+          <a class="dropdown-item" href="./Visitation.php"><b>View Visitations Records</b></a>
+          <a class="dropdown-item" href="./Visitation.php"><b>Edit Visitations Record</b></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="./Visitation.php" style="color: red;"><b>Delete Visitations Records</b></a>
+        </div>
+      </li> 
 
   </ul>
   

@@ -15,6 +15,19 @@ nav {
     font-size: 18px;
 }
 
+.navi{
+  background-color: #191970 ;
+
+}
+
+.nav-link{
+color: white;
+}
+
+.dropdown-menu{
+background-color: lightskyblue;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -184,6 +197,11 @@ footer {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    
+  }
+
+  tr{
+    background-color: white;
   }
 
 td h4 {
@@ -192,4 +210,5 @@ td h4 {
 
 tr:nth-child(odd) {
   background-color: #dddddd;
+
 }

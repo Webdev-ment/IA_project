@@ -18,7 +18,7 @@ class PatientModel
         $dbname = "ia_proj";
         //$dbname = "ia_proj";
 
-        echo "\nConnect called Successfully.";
+        // echo "\nConnect called Successfully.";
 
         // Create connection
         $this->conn = new mysqli($servername, $username, $password, $dbname);
@@ -30,7 +30,7 @@ class PatientModel
         }
         else 
         {
-            echo "\nConnection successful.";
+            // echo "\nConnection successful.";
         }
     } 
 
@@ -157,7 +157,7 @@ class PatientModel
         $this->Connect();
        
 
-        echo "\n Get all called successfully.";
+        // echo "\n Get all called successfully.";
 
         $all = "SELECT * FROM Patient";
         $result = $this->conn->query($all);     
@@ -206,7 +206,7 @@ class PatientModel
             // echo '<td style="border-bottom:  1px solid #ddd">' . '<input type="submit" name="delete" value="Delete"> ' . '</td>';
             }
         //echo '</form>';
-        echo "Fetched data successfully.";
+        // echo "Fetched data successfully.";
         } 
 
     }
