@@ -69,23 +69,23 @@
                     </div> -->
                     <div class="col-sm-6">
                     <label for=""><b>Patient ID</b></label>
-                    <input type="text" name="pat_ID" placeholder="Eg. Mary">
+                    <input type="text" name="pat_ID" placeholder="">
                     </div>
                     <div class="col-sm-6">
                     <label for=""><b>Doctor ID</b></label>
-                    <input type="text" name="dct_ID" placeholder="Eg. Doe">
+                    <input type="text" name="dct_ID" placeholder="">
                     </div>
                     <div class="col-sm-6">
                     <label for=""><b>Visitation Drug</b></label>
-                    <input type="text" name="vst_Drug" placeholder="Eg. Doe">
+                    <input type="text" name="vst_Drug" placeholder="">
                     </div>
                     <div class="col-sm-6">
                     <label for=""><b>Visitation Date</b></label>
-                    <input type="date" name="vst_Date" placeholder="Eg. Doe">
+                    <input type="date" name="vst_Date" placeholder="">
                     </div>
                     <div class="col-sm-6">
                     <label for=""><b>Visitation Comment</b></label>
-                    <input type="text" name="vst_Comment" placeholder="Eg. Doe">
+                    <input type="text" name="vst_Comment" placeholder="">
                     </div>
                 </div>
                 <div class="row justify-content-center">

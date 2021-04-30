@@ -17,7 +17,7 @@ session_start();
 
 <html>
 <head>
-<title>Home</title>
+<title>Profile</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -84,10 +84,12 @@ session_start();
                     else {
                         echo "<h2 style=color:white;>Welcome ".$_SESSION["USER"]["fname"]." !! You are logged in...</h2>";
                         echo "\n";
+                        echo "<h2 style=color:white;>ID Number: ".$_SESSION["USER"]["id"]."</h2>";
                         echo "<h2 style=color:white;>Name: ".$_SESSION["USER"]["type"]." ".$_SESSION["USER"]["fname"]." ".$_SESSION["USER"]["lname"]."</h2>";
                         echo "<h2 style=color:white;>Address: ".$_SESSION["USER"]["address"]."</h2>";
                         echo "<h2 style=color:white;>Phone: ".$_SESSION["USER"]["phone"]."</h2>";
                         echo "<h2 style=color:white;>Email: ".$_SESSION["USER"]["email"]."</h2>";
+                      
                     }
                 }
                 ?>

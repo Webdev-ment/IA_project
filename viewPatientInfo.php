@@ -65,7 +65,7 @@ require_once ("PatientModel.php");
   $Object->get_all_Patients();
 ?>
 
-<body class="bg-light" >
+<body class="patientbg" >
 <h1><center>Patient Record</center></h1>
 <hr>
 <br>

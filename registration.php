@@ -26,7 +26,7 @@ session_start();
     <li class="nav-item active">
       <a class="nav-link" href="./registration.php">Register</a>
     </li>
-    <li class="nav-item dropdown active">
+    <!-- <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Patients
         </a>
@@ -37,7 +37,7 @@ session_start();
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#" style="color: red;"><b>Delete Patient Records</b></a>
         </div>
-      </li>
+      </li> -->
 
   </ul>
   
