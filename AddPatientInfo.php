@@ -5,38 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Patient Record</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
 </head>
-<nav class=" navi navbar navbar-expand-sm  sticky-top" >
-<div class="">
-    <a class="navbar-brand" href="./index.php">
-      <img src="./EMR_S.png" alt="" width="200px" height="50px">
-    </a>
-</div>
+<nav class="navbar navbar-expand-sm bg-warning navbar-dark sticky-top" >
 <ul class="navbar-nav" style="font-weight:bold;">
     <li class="nav-item active">
       <a class="nav-link" href="./index.php" >Home</a>
     </li>
-    <li class="nav-item active">
+    <li class="nav-item">
       <a class="nav-link" href="./registration.php">Register</a>
     </li>
-    <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Patients
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="./AddPatientInfo"><b>Create Patient Records</b></a>
-          <a class="dropdown-item" href="./viewPatientInfo"><b>View Patient Records</b></a>
-          <a class="dropdown-item" href="#"><b>Edit Patient Record</b></a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" style="color: red;"><b>Delete Patient Records</b></a>
-        </div>
-      </li>
-
+    <li class="nav-item">
+      <a class="nav-link" href="#">Services</a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li> -->
   </ul>
-  
-
 </nav>
 <body class="patientbg" >
 <form action="PatientController.php" method="POST">
@@ -68,11 +52,11 @@
     <button  type="submit" name="view" value="View" class="btn  patientbtn">View</button> -->
     <div class="row justify-content-center">
         <div class="col-4">
-        <button type="submit" name="insert" value="Insert" class="btn patientbtn">Create Record</button>
+        <button type="submit" name="insert" value="Insert" class="btn  patientbtn">Insert</button>
         </div>
-        <!-- <div class="col-4">
+        <div class="col-4">
         <button  type="submit" name="view" value="View" class="btn  patientbtn">View</button>
-        </div> -->
+        </div>
     </div>
     <br><br>
     <!-- <input type="submit" name="insert" value="Insert"></input>
@@ -83,6 +67,9 @@
 </form>
 <br><br>
 </body>
+<footer class="bg-warning">
+    <p>Group2</p>
+</footer>
 </html>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
