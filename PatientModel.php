@@ -15,7 +15,7 @@ class PatientModel
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "project";
+        $dbname = "ia_proj";
         //$dbname = "ia_proj";
 
         echo "\nConnect called Successfully.";
